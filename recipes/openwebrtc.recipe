@@ -40,7 +40,7 @@ class Recipe(recipe.Recipe):
     stype = SourceType.GIT
     licenses = [License.BSD_like]
     remotes = {
-        'origin': 'https://github.com/EricssonResearch/openwebrtc.git'
+        'origin': 'https://github.com/isi-research/openwebrtc.git'
     }
     commit = 'origin/master'
     autoreconf = True
@@ -211,6 +211,7 @@ class Recipe(recipe.Recipe):
             host_owr_version_id_path = os.path.join(host_prefix, "share", "owr",
                                                     "version_id")
             if not os.path.isfile(host_owr_version_id_path):
+                print host_owr_version_id_path
                 raise Exception(err_rebuild)
 
             # Error out if the host build is out of date
