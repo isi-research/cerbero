@@ -5,7 +5,7 @@ class Recipe(recipe.Recipe):
     version = '2.6.2'
     licenses = [License.BSD_like]
     stype = SourceType.TARBALL
-    url = 'https://github.com/westes/flex/releases/download/v{0}/flex-{0}.tar.gz'.format(version)
+    url = 'https://github.com/isi-research/owr-dependencies/blob/master/flex-2.6.2/flex-2.6.2.tar.gz'.format(version)
     files_bins = ['flex', 'flex++', 'lex']
     patches = ['flex/flex-prevent-to-build-doc.patch']
     autoreconf = True

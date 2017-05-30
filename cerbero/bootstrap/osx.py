@@ -28,7 +28,7 @@ from cerbero.utils import shell
 
 class OSXBootstrapper (BootstrapperBase):
 
-    CPANM_URL = 'https://raw.github.com/miyagawa/cpanminus/master/cpanm'
+    CPANM_URL = 'https://raw.github.com/isi-research/cpanminus/master/cpanm'
 
     def start(self):
         # skip system package install if not needed

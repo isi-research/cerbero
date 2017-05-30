@@ -7,7 +7,7 @@ class Recipe(recipe.Recipe):
     version = '4.2.2'
     licenses = [License.GPLv2]
     stype = SourceType.TARBALL
-    url = 'http://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/blob/master/sed-4.2.2/sed-4.2.2.tar.gz'
 
     def prepare(self):
         if needs_xcode8_sdk_workaround(self.config):

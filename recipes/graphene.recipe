@@ -22,7 +22,7 @@ class Recipe(recipe.Recipe):
     name = 'graphene'
     stype = SourceType.TARBALL
     version = '1.4.0'
-    url = 'https://github.com/ebassi/graphene/archive/{0}.tar.gz'.format(version)
+    url = 'https://github.com/isi-research/owr-dependencies/blob/master/graphene-1.4.0/graphene-{0}.tar.gz'.format(version)
     licenses = [License.MIT]
     # Disable NEON completly, it's broken and experimental   
     configure_options = ' --enable-static --enable-shared --disable-arm-neon'

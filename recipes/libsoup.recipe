@@ -6,7 +6,7 @@ class Recipe(recipe.Recipe):
     version = '2.56.0'
     licenses = [License.LGPLv2Plus]
     stype = SourceType.TARBALL
-    url = 'http://ftp.gnome.org/pub/gnome/sources/libsoup/2.56/libsoup-2.56.0.tar.xz'
+    url = 'https://github.com/isi-research/owr-dependencies/blob/master/libsoup-2.56.0/libsoup-2.56.0.tar.gz'
     autoreconf = True
     autoreconf_sh = 'gtkdocize && intltoolize --automake --copy && autoreconf --force --install --verbose'
     configure_options = '--without-gnome --disable-more-warnings --disable-vala --with-gssapi=no'

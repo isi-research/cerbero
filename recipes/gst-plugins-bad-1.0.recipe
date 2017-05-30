@@ -18,7 +18,7 @@ class Recipe(custom.GStreamer):
         --disable-vdpau --disable-voamrwbenc --disable-wildmidi \
         --disable-xvid --disable-zbar --disable-sdi --disable-hls --disable-qt'
     # Explicitly enable plugins
-    remotes = {'origin': 'git://anongit.freedesktop.org/gstreamer/gst-plugins-bad'}
+    remotes = {'origin': 'git@github.com:isi-research/gst-plugins-bad'}
     commit = 'aceb64a21c6a0e8478bb405796d60501a422e525'
     deps = ['gstreamer-1.0', 'gst-plugins-base-1.0', 'zlib', 'openh264', 'opus',
             'libsrtp', 'openssl', 'graphene']

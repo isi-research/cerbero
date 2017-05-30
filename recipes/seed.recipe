@@ -29,7 +29,7 @@ class Recipe(recipe.Recipe):
     version = '3.8.2_a015bd'
     stype = SourceType.GIT
     licenses = [License.LGPLv2Plus]
-    remotes = { 'origin': 'git://git.gnome.org/seed' }
+    remotes = { 'origin': 'git@github.com:isi-research/seed.git' }
     commit = 'a015bdb33c3bdd7f250a842c7be8062d483598b8'
     autoreconf = True
     configure_options = '--with-pic --disable-static --enable-shared \
