@@ -4,8 +4,9 @@
 class Recipe(recipe.Recipe):
     name = 'orc'
     version = '0.4.26'
-    remotes = {'origin': 'git@github.com:isi-research/orc.git'}
-    commit = 'orc-0.4.26'
+    remotes = {'origin': 'git@github.com:isi-research/orc'}
+    #commit = 'orc-0.4.26'
+    commit = '5d7958b1bd11966f1313445706d144fdb30e101e'
     licenses = [License.BSD_like]
     autoreconf = True
     configure_options = '--enable-static'

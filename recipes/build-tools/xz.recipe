@@ -6,7 +6,7 @@ class Recipe(recipe.Recipe):
     version = '5.2.2'
     licenses = [License.GPLv3]
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/xz-5.2.2/xz-5.2.2.tar.bz2'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/xz-5.2.2/xz-5.2.2.tar.bz2'
 
     files_bins = ['xz']
 
