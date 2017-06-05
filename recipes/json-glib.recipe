@@ -5,7 +5,7 @@ class Recipe(recipe.Recipe):
     version = '1.2.2'
     licenses = [License.LGPLv2_1Plus]
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/json-glib-1.2.2/json-glib-1.2.2.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/json-glib-1.2.2/json-glib-1.2.2.tar.xz'
     deps = ['glib']
     configure_options = '--enable-static'
     autoreconf = True

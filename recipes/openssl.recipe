@@ -9,7 +9,7 @@ class Recipe(recipe.Recipe):
     version = '1.0.2j'
     licenses = [License.BSD_like]
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/openssl-1.0.2j/openssl-1.0.2j.tar.gz'.format(name, version)
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/openssl-1.0.2j/openssl-1.0.2j.tar.gz'.format(name, version)
     deps = ['zlib']
     # Parallel make fails randomly; probably races
     allow_parallel_build = False

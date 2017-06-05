@@ -6,7 +6,7 @@ class Recipe(custom.GStreamerStatic):
     gstreamer_version = '1.0'
     stype = SourceType.TARBALL
     srcdir = '../libnice-' + version
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/libnice-0.1.13/libnice-0.1.13.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/libnice-0.1.13/libnice-0.1.13.tar.gz'
     licenses = [License.LGPLv2_1Plus, License.MPLv1_1]
     extra_configure_options = ' --without-gstreamer-0.10 \
         --enable-compile-warnings=maximum'

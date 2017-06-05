@@ -5,7 +5,7 @@ class Recipe(recipe.Recipe):
     name = 'libxml2'
     version = '2.9.4'
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/libxml2-2.9.4/libxml2-2.9.4.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/libxml2-2.9.4/libxml2-2.9.4.tar.gz'
     licenses = [License.MIT]
     deps = [ 'zlib' ]
     autoreconf = True

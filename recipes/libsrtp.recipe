@@ -8,7 +8,7 @@ class Recipe(recipe.Recipe):
     name = 'libsrtp'
     version = '1.5.4'
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/libsrtp-1.5.4/libsrtp-1.5.4.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/libsrtp-1.5.4/v1.5.4.tar.gz'
     licenses = [License.BSD_like]
     deps = ['openssl']
     configure_options = ' --enable-openssl '

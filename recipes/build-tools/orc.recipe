@@ -4,8 +4,8 @@
 class Recipe(recipe.Recipe):
     name = 'orc-tool'
     version = '0.4.26'
-    remotes = {'origin': 'git@github.com:isi-research/orc-tool.git'}
-    commit = 'orc-0.4.26'
+    remotes = {'origin': 'git@github.com:isi-research/orc.git'}
+    commit = '5d7958b1bd11966f1313445706d144fdb30e101e'
     licenses = [License.BSD_like]
     autoreconf = True
     deps = ['autoconf', 'automake', 'libtool']

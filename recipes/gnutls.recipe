@@ -7,7 +7,7 @@ class Recipe(recipe.Recipe):
     name = 'gnutls'
     version = '3.4.17'
     maj_ver = '.'.join(version.split('.')[0:2])
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/gnutils-3.4.17/gnutls-3.4.17.tar.gz'.format(name, maj_ver, version)
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/gnutls-3.4.17/gnutls-3.4.17.tar.xz'
     stype = SourceType.TARBALL
     # main library is LGPLv2+ and binaries is GPLv3+ and defined below
     licenses = [License.LGPLv2Plus]

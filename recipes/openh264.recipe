@@ -6,7 +6,7 @@ from cerbero.utils import shell
 class Recipe(recipe.Recipe):
     name = 'openh264'
     version = '1.6.0'
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/openh264-1.6.0/openh264-1.6.0.tar.gz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/openh264-1.6.0/v1.6.0.tar.gz'
     stype = SourceType.TARBALL
     btype = BuildType.MAKEFILE
     licenses = [License.BSD]

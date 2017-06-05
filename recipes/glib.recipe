@@ -22,7 +22,7 @@ class Recipe(recipe.Recipe):
     name = 'glib'
     version = '2.50.2'
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/glib-2.50.2/glib-2.50.2.tar.xz'
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/glib-2.50.2/glib-2.50.2.tar.xz'
     licenses = [License.LGPLv2Plus]
     config_sh = 'sh autogen.sh'
     configure_options = '--with-pcre=internal --disable-libmount '

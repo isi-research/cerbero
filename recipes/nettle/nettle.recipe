@@ -12,7 +12,7 @@ class Recipe(recipe.Recipe):
     name = 'nettle'
     version = '3.3'
     stype = SourceType.TARBALL
-    url = 'https://github.com/isi-research/owr-dependencies/blob/master/nettle-3.3/nettle-3.3.tar.gz'.format(name, version)
+    url = 'https://github.com/isi-research/owr-dependencies/raw/master/nettle-3.3/nettle-3.3.tar.gz'.format(name, version)
 
     licenses = [License.LGPLv2_1Plus]
     configure_options = '--enable-shared --enable-public-key'
